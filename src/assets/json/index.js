@@ -1,9 +1,11 @@
 const developer = {
+  logo: require("../img/ap.png"),
   username: "antorpo",
   email: "antonio.gonzalezr@udea.edu.co",
   role: "Back-end Developer",
   fullname: "Antonio González Restrepo",
-  about: "xd",
+  about:
+    "Soy amante del desarrollo, sobretodo con lo relacionado a la parte lógica, infraestructura y comunicación de los sistemas de software. \n Aspiro algún dia convertirme en un gran ingeniero Back-end + DevOps",
   age: 23,
   github: "https://github.com/antorpo",
   linkedin: "https://www.linkedin.com/in/antorpo",
@@ -55,7 +57,7 @@ const developer = {
       percentage: 60,
       color: "#8a1e7f",
       image: require("../img/node.png"),
-    }
+    },
   ],
   experience: [
     {

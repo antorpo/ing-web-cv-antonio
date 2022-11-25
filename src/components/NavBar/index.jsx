@@ -2,13 +2,13 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 
-export const NavBar = ({ developer, links }) => {
+export const NavBar = ({ username, logo, links }) => {
   const [nav, setNav] = useState(false);
 
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
-      <div>
-        <h1 className="text-5xl font-signature ml-2">{developer.username}</h1>
+      <div className="h-6 w-6 self-center">
+        <img src={logo} alt="Ok" />
       </div>
 
       <ul className="hidden md:flex">
@@ -23,8 +23,6 @@ export const NavBar = ({ developer, links }) => {
           </li>
         ))}
       </ul>
-
-      <img src={developer.skills[0].image} alt="Lo intenté bro" />
 
       <div
         onClick={() => setNav(!nav)}

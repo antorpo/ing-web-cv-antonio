@@ -1,15 +1,31 @@
-import { NavBar } from "./components/NavBar";
+import {
+  NavBar,
+  Home,
+  About,
+  Portfolio,
+  Experience,
+  Contact,
+  Social,
+} from "./components";
 import { JsonInfo } from "./assets/json";
 
-function App() {
+export const App = () => {
   const { developer, links } = JsonInfo;
 
   return (
-    <div>
-      <h1 className="text-4xl font-bold font-signature">ANTONIO</h1>
-      <NavBar developer={developer} links={links} />
-    </div>
-  );
-}
+    <>
+      <NavBar
+        logo={developer.logo}
+        username={developer.username}
+        links={links}
+      />
+      <Home />
+      <About />
+      <Portfolio />
+      <Experience />
+      <Contact />
 
-export default App;
+      <Social />
+    </>
+  );
+};
