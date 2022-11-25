@@ -71,6 +71,7 @@ const developer = {
   ],
   experience: [
     {
+      id: 1,
       company: "XpertGroup",
       jobTitle: "Back-end Developer",
       duration: "Feb 2019 - Ago 2020",
@@ -80,6 +81,7 @@ const developer = {
       web: "https://xpertgroup.co/",
     },
     {
+      id: 2,
       company: "Sistecrédito",
       jobTitle: "Back-end Developer",
       duration: "Sept 2021 - Presente",
@@ -97,35 +99,19 @@ const developer = {
     },
   ],
   hobbies: [
-    {
-      hobbie: "Leer",
-      image: require("../img/sistecredito.jpg"),
-    },
-    {
-      hobbie: "Comer",
-      image: require("../img/sistecredito.jpg"),
-    },
-    {
-      hobbie: "Jugar",
-      image: require("../img/sistecredito.jpg"),
-    },
-    {
-      hobbie: "Bailar",
-      image: require("../img/sistecredito.jpg"),
-    },
+    { id: 1, hobbie: "Leer", image: require("../img/book-hobbie.svg") },
+    { id: 2, hobbie: "Comer", image: require("../img/food-hobbie.svg") },
+    { id: 3, hobbie: "Jugar", image: require("../img/gamer-hobbie.svg") },
+    { id: 4, hobbie: "Bailar", image: require("../img/dance-hobbie.svg") },
+    { id: 5, hobbie: "Programar", image: require("../img/computer-hobbie.svg") },
   ],
 };
 
 const links = [
-  { id: 1, link: "Home" },
-  { id: 2, link: "Skills" },
-  { id: 3, link: "portfolio" },
-  { id: 4, link: "experience" },
-  { id: 5, link: "contact" },
-  { id: 6, link: "Skills" },
-  { id: 7, link: "Experience" },
-  { id: 8, link: "Languages" },
-  { id: 9, link: "Hobbies" },
+  { id: 1, link: "home" },
+  { id: 2, link: "skills" },
+  { id: 3, link: "experience" },
+  { id: 4, link: "hobbies" },
 ];
 
 export const JsonInfo = {
