@@ -95,7 +95,7 @@ const developer = {
   languages: [
     {
       id: 1,
-      language: "Ingles",
+      language: "Inglés",
       scale: 3,
     },
   ],
