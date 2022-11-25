@@ -7,7 +7,7 @@ export const NavBar = ({ username, logo, links }) => {
 
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
-      <div className="h-6 w-6 self-center">
+      <div className="h-8 w-8 self-center">
         <img src={logo} alt="Ok" />
       </div>
 

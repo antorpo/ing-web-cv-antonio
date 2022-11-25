@@ -7,6 +7,7 @@ import { NavBar2 } from "./NavBar2";
 import { Portfolio } from "./Portfolio";
 import { Social } from "./Social";
 import { Footer } from "./Footer";
+import { Skill } from "./Skill";
 
 export {
   About,
@@ -18,4 +19,5 @@ export {
   Portfolio,
   Social,
   Footer,
+  Skill,
 };

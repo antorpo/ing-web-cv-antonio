@@ -3,7 +3,9 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
-export const Social = () => {
+export const Social = ({ developer }) => {
+  const { github, linkedin, email, file } = developer;
+
   const links = [
     {
       id: 1,
@@ -12,7 +14,7 @@ export const Social = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: linkedin,
       style: "rounded-tr-md",
     },
     {
@@ -22,7 +24,7 @@ export const Social = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com/theyashpatel",
+      href: github,
     },
     {
       id: 3,
@@ -31,16 +33,16 @@ export const Social = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:foo@gmail.com",
+      href: `mailto:${email}`,
     },
     {
       id: 4,
       child: (
         <>
-          Resume <BsFillPersonLinesFill size={30} />
+          CV <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/resume.pdf",
+      href: file,
       style: "rounded-br-md",
       download: true,
     },
