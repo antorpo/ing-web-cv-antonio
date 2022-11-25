@@ -99,11 +99,11 @@ const developer = {
     },
   ],
   hobbies: [
-    { id: 1, hobbie: "Leer", image: require("../img/book-hobbie.svg") },
-    { id: 2, hobbie: "Comer", image: require("../img/food-hobbie.svg") },
-    { id: 3, hobbie: "Jugar", image: require("../img/gamer-hobbie.svg") },
-    { id: 4, hobbie: "Bailar", image: require("../img/dance-hobbie.svg") },
-    { id: 5, hobbie: "Programar", image: require("../img/computer-hobbie.svg") },
+    { id: 1, hobbie: "Leer", image: require("../img/book-hobbie.png") },
+    { id: 2, hobbie: "Comer", image: require("../img/food-hobbie.png") },
+    { id: 3, hobbie: "Jugar", image: require("../img/gamer-hobbie.png") },
+    { id: 4, hobbie: "Bailar", image: require("../img/dance-hobbie.png") },
+    { id: 5, hobbie: "Programar", image: require("../img/computer-hobbie.png") },
   ],
 };
 

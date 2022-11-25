@@ -3,7 +3,7 @@ import React from "react";
 const Company = ({ experience }) => {
   const { company, jobTitle, duration, description, image, web } = experience;
   return (
-    <div className="rounded-lg text-center overflow-hidden w-full transform hover:shadow-2xl hover:scale-105 transition duration-200 ease-in">
+    <div className="rounded-lg text-center overflow-hidden w-full hover:shadow-2xl hover:scale-105 transition duration-200 ease-in">
       <div className="w-full py-5 border-b border-gray-800">
         <h2 className="font-bold text-3xl text-white">{company}</h2>
         <h3 className="font-normal text-indigo-500 text-xl mt-2">{jobTitle}</h3>

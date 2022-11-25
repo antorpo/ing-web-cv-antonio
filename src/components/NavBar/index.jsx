@@ -6,7 +6,7 @@ export const NavBar = ({ username, logo, links }) => {
   const [nav, setNav] = useState(false);
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
+    <nav className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed z-40">
       <div className="h-12 w-12 self-center mr-2">
         <img src={logo} alt="Ok" className="h-12 w-12 self-center" />
       </div>
@@ -50,6 +50,6 @@ export const NavBar = ({ username, logo, links }) => {
           ))}
         </ul>
       )}
-    </div>
+    </nav>
   );
 };
