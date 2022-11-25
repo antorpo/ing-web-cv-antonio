@@ -1,9 +1,10 @@
 import React from "react";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
+import { Rating } from "../../components";
 
 export const Home = ({ developer }) => {
-  const { image, fullname, role, about } = developer;
+  const { image, fullname, role, about, languageScale, languages } = developer;
   return (
     <div
       name="home"
@@ -17,6 +18,22 @@ export const Home = ({ developer }) => {
           <h3 className="text-2xl sm:text-5xl font-bold text-white">{role}</h3>
           <p className="text-gray-500 py-4 max-w-md">{about}</p>
 
+          <div className="pt-5">
+            <h5 className="text-lg sm:text-3lg font-bold text-white">
+              Languages
+            </h5>
+
+            <div>
+              {languages.map(({ id, language, scale }) => (
+                <div className="flex flex-row pt-5 pb-10">
+                  <h6 className="text-lg sm:text-2lg font-bold text-slate-600">
+                    {language}
+                  </h6>
+                  <Rating key={id} maximum={languageScale} scale={scale} />
+                </div>
+              ))}
+            </div>
+          </div>
           <div>
             <Link
               to="skills"

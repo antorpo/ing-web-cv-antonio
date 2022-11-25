@@ -1,12 +1,9 @@
 import {
   Home,
-  About,
-  Portfolio,
   Experience,
-  Contact,
   Social,
   Skill,
-  Hobbies,
+  Hobbies
 } from "../../components";
 import React from "react";
 import { MainLayout } from "../../layouts";

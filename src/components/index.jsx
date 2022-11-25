@@ -5,6 +5,7 @@ import { Social } from "./Social";
 import { Footer } from "./Footer";
 import { Skill } from "./Skill";
 import { Hobbies } from "./Hobbies";
+import { Rating } from "./Rating";
 
 export {
   Experience,
@@ -14,4 +15,5 @@ export {
   Footer,
   Skill,
   Hobbies,
+  Rating
 };
