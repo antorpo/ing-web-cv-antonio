@@ -77,6 +77,7 @@ const developer = {
       description:
         "Contribución en mantenimiento de servicios en el lado del front-end y back-end",
       image: require("../img/xpertgroup.jpg"),
+      web: "https://xpertgroup.co/",
     },
     {
       company: "Sistecrédito",
@@ -85,6 +86,7 @@ const developer = {
       description:
         "Contribución en la migración de servicios OnPremise (ERP) a un módelo de nube. (Lift-n-Shift)",
       image: require("../img/sistecredito.jpg"),
+      web: "https://www.sistecredito.com/",
     },
   ],
   languageScale: 5,
