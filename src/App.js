@@ -1,21 +1,13 @@
-import "./App.css";
+import { NavBar } from "./components/NavBar";
+import { JsonInfo } from "./assets/json";
 
 function App() {
+  const { developer, links } = JsonInfo;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1 className="text-4xl font-bold font-signature">ANTONIO</h1>
+      <NavBar developer={developer} links={links} />
     </div>
   );
 }
