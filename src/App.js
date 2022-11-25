@@ -6,6 +6,7 @@ import {
   Experience,
   Contact,
   Social,
+  Footer,
 } from "./components";
 import { JsonInfo } from "./assets/json";
 
@@ -26,6 +27,11 @@ export const App = () => {
       <Contact />
 
       <Social />
+      <Footer
+        year={new Date().getFullYear()}
+        email={developer.email}
+        username={developer.username}
+      />
     </>
   );
 };

@@ -6,5 +6,16 @@ import { NavBar } from "./NavBar";
 import { NavBar2 } from "./NavBar2";
 import { Portfolio } from "./Portfolio";
 import { Social } from "./Social";
+import { Footer } from "./Footer";
 
-export { About, Contact, Experience, Home, NavBar, NavBar2, Portfolio, Social };
+export {
+  About,
+  Contact,
+  Experience,
+  Home,
+  NavBar,
+  NavBar2,
+  Portfolio,
+  Social,
+  Footer,
+};
